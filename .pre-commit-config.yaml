@@ -48,3 +48,7 @@ repos:
   rev: v6.2.0
   hooks:
   - id: reuse
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 0.37.1
+  hooks:
+    - id: check-github-workflows

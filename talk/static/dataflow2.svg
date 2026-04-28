@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="218.03085mm"
+   height="120mm"
+   viewBox="0 0 218.03085 120"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="dataflow2.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="1.6276714"
+     inkscape:cx="445.4216"
+     inkscape:cy="253.12234"
+     inkscape:window-width="3440"
+     inkscape:window-height="1350"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false">
+    <sodipodi:guide
+       position="2,105"
+       orientation="-1,0"
+       id="guide8"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="15,118"
+       orientation="-0.00081018175,0.99999967"
+       id="guide9"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="15,28.000001"
+       orientation="0,1"
+       id="guide10"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="15,88.000002"
+       orientation="0,1"
+       id="guide11"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="15,58.000001"
+       orientation="0,1"
+       id="guide12"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="52,105"
+       orientation="-1,0"
+       id="guide19"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="102,105"
+       orientation="-1,0"
+       id="guide20"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="152,105"
+       orientation="-1,0"
+       id="guide48"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="218.03085"
+       height="120"
+       id="page35"
+       margin="2"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path17" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 80.999999,52.999999 99,97"
+       id="path4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#6d28d9;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 80.999999,52.999999 99,97"
+       id="path9"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.479106;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect7"
+       width="18.249996"
+       height="3.35355"
+       x="80.75"
+       y="73.323227" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 131,15.000001 149,42"
+       id="path5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 131,44.999999 149,45"
+       id="path6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#8c564b;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="m 131,75 h 18"
+       id="path8"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="path1"
+       cx="15"
+       cy="15.000001"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="14.977781"
+       y="13.828986"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="14.977781"
+         y="13.828986">raw</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="14.977781"
+         y="19.517469"
+         id="tspan13">data</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use27"
+       cx="15"
+       cy="45"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="15"
+       y="45"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="15"
+         y="45">raw</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="15"
+         y="50.688484"
+         id="tspan15">data</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use27-7"
+       cx="115"
+       cy="15.000001"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="114.84442"
+       y="16.800228"
+       id="text21"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="114.84442"
+         y="16.800228"
+         id="tspan21">Table</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use27-5"
+       cx="115"
+       cy="45"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="115.1143"
+       y="47.343151"
+       id="text24"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="115.1143"
+         y="47.343151"
+         id="tspan24">Plot</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use27-45"
+       cx="165"
+       cy="45"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="165.14287"
+       y="47.438404"
+       id="text25"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="165.14287"
+         y="47.438404"
+         id="tspan25">Article</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="181"
+       y="45"
+       id="text11"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="181"
+         y="45"
+         id="tspan11">→ upload</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="181"
+         y="50.688484"
+         id="tspan16">to publisher</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="181"
+       y="75"
+       id="text18"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="181"
+         y="75"
+         id="tspan18">→ upload</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="181"
+         y="80.688484"
+         id="tspan22">to publisher</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="131"
+       y="105"
+       id="text20"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="131"
+         y="105"
+         id="tspan19">→upload</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="131"
+         y="110.68848"
+         id="tspan20">to repository</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use28"
+       cx="15"
+       cy="75"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="14.977781"
+       y="73.828987"
+       id="text29"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="14.977781"
+         y="73.828987">raw</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="14.977781"
+         y="79.517471"
+         id="tspan29">data</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use29"
+       cx="15"
+       cy="105"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="14.977781"
+       y="103.82899"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="14.977781"
+         y="103.82899">raw</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="14.977781"
+         y="109.51747"
+         id="tspan31">data</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use27-6"
+       cx="65"
+       cy="15.000001"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="65.11113"
+       y="14.594164"
+       id="text33"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="65.11113"
+         y="14.594164">derived</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="65.11113"
+         y="20.282646"
+         id="tspan33">data</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use38"
+       cx="65"
+       cy="45"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="65.11113"
+       y="44.594162"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan38"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="65.11113"
+         y="44.594162">derived</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="65.11113"
+         y="50.282646"
+         id="tspan39">data</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use40"
+       cx="65"
+       cy="75"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="65.11113"
+       y="74.594162"
+       id="text41"><tspan
+         sodipodi:role="line"
+         id="tspan40"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="65.11113"
+         y="74.594162">derived</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="65.11113"
+         y="80.282646"
+         id="tspan41">data</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use44"
+       cx="115"
+       cy="75"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="114.84442"
+       y="76.800232"
+       id="text44"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="114.84442"
+         y="76.800232"
+         id="tspan44">Table</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use45"
+       cx="115"
+       cy="105"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="115.1143"
+       y="107.34315"
+       id="text45"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="115.1143"
+         y="107.34315"
+         id="tspan45">Dataset</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="m 30.999999,15.000001 h 18"
+       id="path48"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="m 30.999999,18.000001 18,23.999998"
+       id="path50"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="m 31,45 17.999999,-10e-7"
+       id="path51"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#6d28d9;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 31,102 48.999999,78"
+       id="path52"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 31,75 H 48.999999"
+       id="path53"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#8c564b;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 80.999999,47.999999 98.999999,72"
+       id="path54"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 80.999999,15.000001 H 99"
+       id="path56"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 80.999999,18.000001 98.999999,42"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#6d28d9;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="m 80.999999,78 18,24"
+       id="path3"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#888888;stroke-dasharray:none"
+       id="use9"
+       cx="165"
+       cy="75"
+       r="13" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#888888;fill-opacity:1;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       x="165.08255"
+       y="74.343338"
+       id="text10"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="165.08255"
+         y="74.343338"
+         id="tspan9">Supp.</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#888888;stroke-width:0.3"
+         x="165.08255"
+         y="80.031822"
+         id="tspan10">Inf.</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#6d28d9;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 31,105 H 98.999999"
+       id="path10"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#8c564b;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 80.999999,75 H 98.999998"
+       id="path7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="M 31,72 48.999999,48"
+       id="path11"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2ca02c;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
+       d="m 81,45 17.999999,-10e-7"
+       id="path12"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

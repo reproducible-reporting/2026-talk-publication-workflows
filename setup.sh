@@ -22,20 +22,7 @@ cat > shell.sh << EOF
 export SOURCE_DATE_EPOCH=315532800
 export PROJECT_ROOT=$PWD
 source .venv/bin/activate
-export STEPUP_PATH_FILTER='+../'
 $SHELL -i
 EOF
+head -n-1 shell.sh | tail -n+2 > .envrc
 chmod +x shell.sh
-
-# Create the module file for HPC clusters (also works locally)
-mkdir -p .venv/modules
-cat > .venv/modules/bootstrap.lua << EOF
-local project_root = "$PWD"
-setenv("PROJECT_ROOT", project_root)
-local venv = project_root .. "/.venv"
-setenv("SOURCE_DATE_EPOCH", "315532800")
-setenv("STEPUP_PATH_FILTER", "+../")
-setenv("VIRTUAL_ENV", venv)
-prepend_path("PYTHONPATH", venv .. "/lib/python$PYTHON_VERSION/site-packages")
-prepend_path("PATH", venv .. "/bin")
-EOF

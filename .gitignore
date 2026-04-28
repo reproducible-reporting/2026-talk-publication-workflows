@@ -16,12 +16,15 @@ build
 
 # StepUp
 .stepup
+talk.html
+built
 
 # Software environment
 .venv
 venv
 venvs
 shell.sh
+.envrc
 
 # Other
 tmp

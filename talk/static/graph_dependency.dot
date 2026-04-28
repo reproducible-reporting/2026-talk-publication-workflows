@@ -1,0 +1,55 @@
+strict digraph {
+  graph [rankdir=LR bgcolor=transparent]
+  node [penwidth=0 fontcolor="white" style=filled fillcolor="#1e64c8"]
+  edge [color=dimgray arrowhead=normal]
+  24 [label="built/bioengineered1\n.svg" shape=rect fillcolor="#8c564b"]
+  25 [label="built/bioengineered2\n.svg" shape=rect fillcolor="#8c564b"]
+  28 [label="built/graph_dependen\ncy.svg" shape=rect fillcolor="#8c564b"]
+  3 [label="plan.py" shape=rect fillcolor="#8c564b"]
+  38 [label="static/bioengineered\n.csv" shape=rect fillcolor="#8c564b"]
+  39 [label="static/colab.svg" shape=rect fillcolor="#8c564b"]
+  40 [label="static/dataflow1.svg" shape=rect fillcolor="#8c564b"]
+  41 [label="static/dataflow2.svg" shape=rect fillcolor="#8c564b"]
+  42 [label="static/dataflow3.svg" shape=rect fillcolor="#8c564b"]
+  43 [label="static/graph_depende\nncy.dot" shape=rect fillcolor="#8c564b"]
+  44 [label="static/jupyterhub.sv\ng" shape=rect fillcolor="#8c564b"]
+  45 [label="static/kaggle.svg" shape=rect fillcolor="#8c564b"]
+  46 [label="static/logo-cmm.svg" shape=rect fillcolor="#8c564b"]
+  47 [label="static/logo-\nugent.svg" shape=rect fillcolor="#8c564b"]
+  48 [label="static/make_plots.py" shape=rect fillcolor="#8c564b"]
+  49 [label="static/matplotlibrc" shape=rect fillcolor="#8c564b"]
+  50 [label="static/tool-\nbuild.svg" shape=rect fillcolor="#8c564b"]
+  51 [label="static/tool-\nworkflow.svg" shape=rect fillcolor="#8c564b"]
+  52 [label="static/zenodo.png" shape=rect fillcolor="#8c564b"]
+  30 [label="talk.html" shape=rect fillcolor="#8c564b"]
+  16 [label="talk.typ" shape=rect fillcolor="#8c564b"]
+  29 [label="compile-typst\ntalk.typ\n--out=talk.html --\n--format=html\n--features=html"]
+  17 [label="mkdir built/"]
+  4 [label="runpy ./plan.py"]
+  53 [label="runpy make_plots.py\n# wd=static/"]
+  54 [label="runsh dot\n-Nfontname=FiraGo st\natic/graph_dependenc\ny.dot -Tsvg -o built\n/graph_dependency.sv\ng"]
+  3 -> 4
+  16 -> 29
+  29 -> 30
+  38 -> 53
+  48 -> 53
+  49 -> 53
+  53 -> 24
+  53 -> 25
+  43 -> 54
+  54 -> 28
+  24 -> 29
+  25 -> 29
+  28 -> 29
+  39 -> 29
+  40 -> 29
+  41 -> 29
+  42 -> 29
+  44 -> 29
+  45 -> 29
+  46 -> 29
+  47 -> 29
+  50 -> 29
+  51 -> 29
+  52 -> 29
+}

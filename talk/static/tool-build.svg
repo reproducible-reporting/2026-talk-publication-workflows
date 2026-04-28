@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110mm"
+   height="40mm"
+   viewBox="0 0 110 40"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="tool-build.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.213485"
+     inkscape:cx="207.71841"
+     inkscape:cy="75.463243"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4">
+    <inkscape:page
+       x="7.2826614e-15"
+       y="0"
+       width="110"
+       height="40"
+       id="page3"
+       margin="1"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="2"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#8c564b;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       id="path1"
+       cx="7.0000005"
+       cy="7"
+       r="6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       x="7.2099056"
+       y="8.7014503"
+       id="text1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+         x="7.2099056"
+         y="8.7014503"
+         id="tspan2">F1</tspan></text>
+    <g
+       id="g7"
+       transform="translate(0,-0.02046949)">
+      <circle
+         style="fill:#8c564b;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         id="circle3"
+         cx="7.1852107"
+         cy="33.000004"
+         r="6" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         x="7.0617404"
+         y="34.70145"
+         id="text3"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+           x="7.0617404"
+           y="34.70145"
+           id="tspan3">F2</tspan></text>
+    </g>
+    <circle
+       style="fill:#8c564b;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       id="circle5"
+       cx="59.977459"
+       cy="7"
+       r="6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       x="60.051544"
+       y="8.7014503"
+       id="text5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+         x="60.051544"
+         y="8.7014503"
+         id="tspan5">F3</tspan></text>
+    <g
+       id="g8"
+       transform="translate(3.1354639,3.501927)">
+      <circle
+         style="fill:#8c564b;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         id="circle7"
+         cx="60.026852"
+         cy="26.155014"
+         r="6" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         x="60.039192"
+         y="27.856464"
+         id="text7"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+           x="60.039192"
+           y="27.856464"
+           id="tspan7">F5</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(0,-4.2656132)">
+      <circle
+         style="fill:#8c564b;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         id="circle8"
+         cx="103"
+         cy="14.96978"
+         r="6" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         x="103.04939"
+         y="16.67123"
+         id="text8"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+           x="103.04939"
+           y="16.67123"
+           id="tspan8">F6</tspan></text>
+    </g>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="m 13.009074,11.376476 8.329513,5.311556"
+       id="path18"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="M 45.099688,31.634228 55.194234,30.080246"
+       id="path20"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="M 14.512506,32.979534 H 30.507521"
+       id="path21"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="m 66.788903,7.2871752 7.135511,1.0454901"
+       id="path24"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#1e64c8;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       id="path1-2"
+       cx="91.353821"
+       cy="36"
+       r="3" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9389px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       x="102.45467"
+       y="37.625603"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="fill:#000000;stroke:none;stroke-width:0.5"
+         x="102.45467"
+         y="37.625603">= step</tspan></text>
+    <circle
+       style="fill:#8c564b;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       id="circle2"
+       cx="91.353821"
+       cy="28.609661"
+       r="3" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9389px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       x="101.12611"
+       y="30.278456"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="fill:#000000;stroke:none;stroke-width:0.5"
+         x="101.12611"
+         y="30.278456">= file</tspan></text>
+    <circle
+       style="fill:#1e64c8;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       id="circle1"
+       cx="28.486572"
+       cy="7.0000048"
+       r="6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       x="28.511267"
+       y="8.7014503"
+       id="text2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+         x="28.511267"
+         y="8.7014503"
+         id="tspan1">S1</tspan></text>
+    <circle
+       style="fill:#1e64c8;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       id="circle19"
+       cx="28.634737"
+       cy="20.749304"
+       r="6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       x="28.511267"
+       y="22.450748"
+       id="text19"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+         x="28.511267"
+         y="22.450748"
+         id="tspan19">S2</tspan></text>
+    <g
+       id="g6"
+       transform="translate(0,0.18323153)">
+      <circle
+         style="fill:#1e64c8;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         id="circle20"
+         cx="38.305676"
+         cy="32.796303"
+         r="6" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         x="38.379761"
+         y="34.497753"
+         id="text20"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+           x="38.379761"
+           y="34.497753"
+           id="tspan20">S3</tspan></text>
+    </g>
+    <g
+       id="g4"
+       transform="translate(0,3.7041668)">
+      <circle
+         style="fill:#1e64c8;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         id="circle22"
+         cx="81.51342"
+         cy="7"
+         r="6" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+         x="81.627602"
+         y="8.6718149"
+         id="text22"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+           x="81.627602"
+           y="8.6718149"
+           id="tspan22">S4</tspan></text>
+    </g>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="m 14.065991,6.7028563 6.41244,-0.08641"
+       id="path28"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="m 68.450711,25.184927 7.900972,-8.518868"
+       id="path29"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="m 88.429241,10.704167 h 6.642294"
+       id="path31"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="M 35.859317,6.5556671 52.113562,6.800805"
+       id="path32"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#8c564b;stroke:none;stroke-width:3.47737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       id="circle4"
+       cx="48.983566"
+       cy="18.543587"
+       r="6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0.895824em;font-family:FiraGO;-inkscape-font-specification:FiraGO;text-align:center;letter-spacing:0px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1e64c8;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+       x="49.057652"
+       y="20.245037"
+       id="text4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:FiraGO;-inkscape-font-specification:FiraGO;fill:#ffffff;stroke-width:0.5"
+         x="49.057652"
+         y="20.245037"
+         id="tspan4">F4</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="m 36.034494,20.799956 5.23891,-0.729441"
+       id="path4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;marker-end:url(#RoundedArrow)"
+       d="m 55.990967,17.55028 17.795474,-5.2207"
+       id="path5"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

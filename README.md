@@ -6,37 +6,27 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 ![License](https://img.shields.io/github/license/reproducible-reporting/bootstrap)
 [![Reproducible Reporting](https://raw.githubusercontent.com/reproducible-reporting/.github/main/profile/logo.svg)](https://github.com/reproducible-reporting)
 
-# StepUp Bootstrap repository
+# Talk Publication Workflows
 
-This repository can be used as a template for one or more StepUp workflows.
-You can simply fork or copy this repository to build your own workflows.
+This repository contains the source files and the [StepUp](https://reproducible-reporting.github.io/stepup-core/) workflows for the talk "Publication Workflows" presented at the Data Café on Reproducible Code and Coffee, April 28, 2024.
 
-For basic usage, you only need a Linux environment with the `curl` command installed.
-The `setup.sh` script will bootstrap a minimal self-contained Python environment and install StepUp and its dependencies.
-
-If significant additional software is needed,
-it is recommended to either use externally installed software,
-or to work with Apptainer containers.
-For the latter, you need to have `apptainer` installed on your system.
-Some containers are provided in the sibling [container-factory](https://github.com/reproducible-reporting/container-factory) repository.
-
-The minimal environment can be activated with a shell script (ideal for local hardware)
-or with an LMod module file (better for HPC clusters).
+This repository is derived from the [Bootstrap repository](https://github.com/reproducible-reporting/bootstrap), where you can find technical details on the software setup.
 
 ## License
 
-This repository is licensed under the [Creative Commons CC-BY-SA-4.0 License](https://creativecommons.org/publicdomain/zero/1.0/).
-This means that the files in this repository are in the public domain.
-You can use them any way you like, without any restrictions or attribution requirements.
-Feel free to assign a different license to your forked or copied repository if you wish.
+This repository is licensed under the [Creative Commons CC-BY-SA-4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Getting started
+## How to Rebuild the HTML presentation
+
+(These instructions have been tested on Linux.)
+
+### Download the repo and set up the virtual environment
 
 Clone the repository (or fork it and clone your fork):
 
 ```bash
-git clone git@github.com:reproducible-reporting/bootstrap.git
-cd bootstrap
+git clone git@github.com:reproducible-reporting/2026-talk-publication-workflows.git
+cd 2026-talk-publication-workflows
 ```
 
 Create the Python environment with the `setup.sh` script:
@@ -48,12 +38,7 @@ Create the Python environment with the `setup.sh` script:
 This will download and install [uv](https://docs.astral.sh/uv/)
 and create a virtual environment in the `.venv` directory.
 
-### Working in the StepUp environment
-
-Before you can run `stepup boot` or use other packages,
-it is recommended to activate the environment.
-
-#### Using a subshell
+### Activate the virtual environment
 
 A subshell is the simplest robust way to activate the environment.
 
@@ -68,103 +53,13 @@ The more traditional `source .venv/bin/activate` command is not recommended,
 as it does not allow for customization.
 In addition, exiting the shell offers a cleaner way to return to the original environment.
 
-#### Using an LMod module
+For those who prefer to use [`direnv`](https://direnv.net/), a `.envrc` file is also created that activates the environment when you `cd` into the repository.
 
-If you have LMod installed, e.g. on an HPC cluster, you can load the `bootstrap` module:
+### Rebuild the `talk.html` file
 
-```bash
-module use .venv/modules
-module load bootstrap
-```
-
-This can be combined with other modules and does not require a subshell.
-
-#### Example workflow
-
-The [`workflows/matplotlib/`](workflows/matplotlib/) contains an example workflow that only needs the StepUp environment to run:
+The [StepUp](https://reproducible-reporting.github.io/stepup-core/) workflow can be found in in the `talk/` subdirectory:
 
 ```bash
-cd workflows/matplotlib/
+cd talk/
 stepup boot
 ```
-
-#### Adding more environment variables
-
-If you need to add more environment variables,
-these need to be added in two places in `setup.sh`:
-(i) the part writing the `shell.sh` script,
-and (ii) the part writing the `.venv/modules/bootstrap.lua` file.
-After making these changes, you need to re-run the `setup.sh`.
-
-#### Interaction with VSCode Tunnel
-
-It is recommended to first activate the environment in a terminal,
-and then start the VSCode Tunnel from that terminal.
-This way, the VSCode Tunnel will inherit the environment variables from the terminal,
-
-### Software management with uv
-
-The Python environment is managed with [uv](https://docs.astral.sh/uv/),
-which goes a lot further (at a higher speed) than the standard `pip` and `venv` tools.
-
-A few useful commands:
-
-```bash
-uv add somepackage     # Add a new package to the environment
-uv remove somepackage  # Remove a package from the environment
-```
-
-These commands will also update the `pyproject.toml` and `uv.lock` files,
-which you can commit to Git.
-This will get picked up when someone else runs the `setup.sh` script.
-If you already ran the setup and someone else updated the `pyproject.toml` and `uv.lock` files,
-you can sync the environment with the following command:
-
-```bash
-uv sync                # Sync the environment with the pyproject.toml and uv.lock files
-```
-
-The following commands are also useful:
-
-```bash
-uv lock --upgrade      # Upgrade all packages to their latest versions
-uv run somecommand     # Run a command in the environment without activating it
-```
-
-For a complete list of features and commands,
-see the [uv features](https://docs.astral.sh/uv/getting-started/features/).
-
-## Working with Apptainer containers
-
-This repository contains an example of an [Apptainer](https://apptainer.org/) definition to get you started.
-
-### Building a container
-
-We recommend that you pull only pre-built containers, with minimal modifications at most.
-Apptainer is great for low-overhead execution of software.
-Other tools, like podman or docker, are better suited for building and testing containers.
-(See e.g. [container-factory](https://github.com/reproducible-reporting/container-factory) for examples of building containers with podman.)
-
-See [`apptainer/`](apptainer/) for instructions on how to build and use the container.
-
-### Using a container in a StepUp workflow
-
-You can simply use StepUp's `runsh` command to run a command in a container.
-For example, a minimal `plan.py` file like this will work:
-
-```python
-#!/usr/bin/env python3
-from stepup.core.api import runsh, static
-
-static("apptainer/", "apptainer/gpaw-cpu.sif")
-runsh(
-    "apptainer exec apptainer/gpaw-cpu.sif somecommand",
-    inp=["apptainer/gpaw-cpu.sif", ...],
-    out=[...],
-)
-```
-
-The following two directories contain example workflows using containers:
-
-- [`workflows/gpaw/`](workflows/gpaw/) runs a few small GPAW calculations on the local machine.
-- [`workflows/slurm/`](workflows/slurm/) submits all calculations as Slurm jobs.

@@ -1,0 +1,3 @@
+The Jupyter logo's are used in line with Project Jupyter's Trademark Usage Policy.
+
+See https://jupyter.org/governance/trademarks/#uses-that-never-require-approval

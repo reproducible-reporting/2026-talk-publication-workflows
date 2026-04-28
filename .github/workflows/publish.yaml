@@ -1,0 +1,85 @@
+# SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+name: publish
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build talk from source
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out latest version
+      uses: actions/checkout@v6
+
+    # Install FiraGo, Fira Code and Fira Math fonts
+    - uses: oven-sh/setup-bun@v2
+    - name: Install Fira Fonts
+      run: |
+        bun add @fontsource/firago
+        bun add @fontsource/fira-code
+
+    # Python and venv
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.14'
+    - name: Install uv
+      uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+      with:
+        enable-cache: true
+    - name: Install the project
+      run: uv sync --locked --all-extras --dev
+
+    # Typst and modified slipst
+    - name: Install typst
+      uses: typst-community/setup-typst@v5
+      with:
+        typst-version: v0.14
+    - name: Install modified version of slipst
+      run: |
+        mkdir tmp
+        git clone https://github.com/tovrstra/slipst.git
+        cd slipst
+        git checkout fix/reload
+        bun install
+        bun build.ts
+        mkdir -p ~/.local/share/typst/packages/local/slipst
+        cp -a dist ~/.local/share/typst/packages/local/slipst/0.3.0
+
+    # The talk shows a graph generated with graphviz, so we install it.
+    - name: Setup Graphviz
+      uses: ts-graphviz/setup-graphviz@v2
+
+    # Run the workflow
+    - name: Build the talk with its dependencies and prep for upload
+      run: |
+        cd talk
+        uv run stepup boot
+        mkdir site
+        mv talk.html site/index.html
+
+    # Upload the HTML file to GH pages as index.html
+    - name: Upload HTML artifact
+      uses: actions/upload-pages-artifact@v5
+      with:
+        path: talk/site/
+
+  # Deployment job
+  deploy:
+    needs: build
+    name: Deploy on GH Pages
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

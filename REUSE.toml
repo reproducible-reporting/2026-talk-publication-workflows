@@ -3,10 +3,44 @@
 
 version = 1
 
+# Unless specified otherwise below, static files are created by TV.
 [[annotations]]
 path = [
     "uv.lock",
+    "talk/static/*",
 ]
 precedence = "override"
 SPDX-FileCopyrightText = "© 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = [
+    "talk/static/bioengineered.csv",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "© R. Aquarius, E. M. Bik, D. Bimler, M.P. Oksvold and K. Patrick"
+SPDX-License-Identifier = "CC-BY-NC-4.0"
+
+[[annotations]]
+path = [
+    "talk/static/colab.svg",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "© Google LLC"
+SPDX-License-Identifier = "LicenseRef-Google-Logo"
+
+[[annotations]]
+path = [
+    "talk/static/jupyterhub.svg",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "© Project Jupyter"
+SPDX-License-Identifier = "LicenseRef-Jupyter-Logo"
+
+[[annotations]]
+path = [
+    "talk/static/kaggle.svg",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "© Kaggle"
+SPDX-License-Identifier = "LicenseRef-Kaggle-Logo"
