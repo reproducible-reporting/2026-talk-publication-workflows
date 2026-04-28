@@ -15,12 +15,19 @@ jobs:
     - name: Check out latest version
       uses: actions/checkout@v6
 
-    # Install FiraGo, Fira Code and Fira Math fonts
-    - uses: oven-sh/setup-bun@v2
-    - name: Install Fira Fonts
+    # Install Fira Code and Fira Go fonts
+    - name: Download and install Fira Code Release
       run: |
-        bun add @fontsource/firago
-        bun add @fontsource/fira-code
+        URL="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"
+        curl -L $URL -o firacode.zip
+        unzip firacode.zip -d ./firacode
+        mv ./firacode/ttf/*.ttf /usr/share/fonts/
+    - name: Download and install Fira Go Release
+      run: |
+        URL="https://github.com/bBoxType/FiraGO/releases/download/1.000/bBoxType_FiraGO_1000.zip"
+        curl -L $URL -o firago.zip
+        unzip firago.zip -d ./firago
+        mv ./firago/bBoxType_FiraGO_1000/FiraGO_TTF/*/*.ttf /usr/share/fonts/
 
     # Python and venv
     - name: Set up Python
@@ -39,6 +46,7 @@ jobs:
       uses: typst-community/setup-typst@v5
       with:
         typst-version: v0.14
+    - uses: oven-sh/setup-bun@v2
     - name: Install modified version of slipst
       run: |
         mkdir tmp
