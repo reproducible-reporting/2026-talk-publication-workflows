@@ -59,13 +59,16 @@
       ]
     ]
   ]
-  #v(0.75cm)
   #grid(
-    columns: 2,
-    align: bottom,
+    columns: (auto, auto, 1fr),
+    align: right + bottom,
     gutter: 0.75cm,
     image("static/logo-ugent.svg"),
     image("static/logo-cmm.svg"),
+    box(
+      inset: (top: -0.4cm),
+      image("static/qr.svg", height: 3.5cm)
+    ),
   )
 ] <title>
 #pause
@@ -613,7 +616,7 @@ These can _also_ model the publication workflow!
 #image("built/graph_dependency.svg", width: 24cm)
 #up(<comput>, offset: 11, dy: 1cm)
 #pause
-#up(<comput>, offset: 11, dy: 13.5cm)
+#up(<comput>, offset: 11, dy: 14.7cm)
 #pause
 
 = Integration with Git
@@ -635,7 +638,7 @@ These can _also_ model the publication workflow!
   width: 24cm,
   height: 13cm,
   fill: ugbl,
-  outset: (left: 1cm, right: 1cm, top: 0.8cm, bottom: 20cm),
+  outset: (left: 1cm, right: 1cm, top: 0.8cm, bottom: 7cm),
   align(
     center + horizon,
     circle(
@@ -665,4 +668,9 @@ These can _also_ model the publication workflow!
 
 #align(center, text(size: 24pt, fill: white)[StepUp])
 #up(<comput>, offset: 14, dy: 6cm)
+#pause
+
+#v(3cm)
+#align(center, image("static/qr.svg", height: 3.5cm))
+#up(<comput>, offset: 14, dy: 11.3cm)
 #pause
