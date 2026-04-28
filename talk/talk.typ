@@ -358,13 +358,13 @@ R. Aquarius, E. M. Bik, D. Bimler, M.P. Oksvold and K. Patrick \
 #up(<what>, offset: 6)
 #pause
 
-1. *Order of execution* not enforced
+1. *Order of execution* not strictly enforced
 #pause
-2. *Limited scope*, no scaling beyond a single file
+2. *Limited scope*, logic constrained to a single notebook
 #pause
-3. *Impractical code reuse* from other notebooks: copy-paste
+3. *Impractical code reuse* from other notebooks, mainly copy-paste
 #pause
-4. *Impractical* in revision control (JSON)
+4. *Impractical* in version control (JSON diffs)
 #pause
 
 #v(1cm)
@@ -373,7 +373,7 @@ R. Aquarius, E. M. Bik, D. Bimler, M.P. Oksvold and K. Patrick \
 Other innovative approaches:
 - #link("https://deepnote.com/")[Deepnote]
 - #link("https://www.jetbrains.com/datalore/")[Datalore]
-- #link("https://studiolab.sagemaker.aws/")[Sagemaker Studio Lab]
+- #link("https://studiolab.sagemaker.aws/")[SageMaker Studio Lab]
 
 #pause
 
@@ -431,7 +431,7 @@ These can model the publication workflow!
     [LaTeX],
     [Typst],
     [Pandoc],
-    [(Weasyprint)],
+    [(WeasyPrint)],
     [(Quarto)],
     [...],
   )
@@ -673,4 +673,3 @@ These can _also_ model the publication workflow!
 #v(3cm)
 #align(center, image("static/qr.svg", height: 3.5cm))
 #up(<comput>, offset: 14, dy: 11.3cm)
-#pause
