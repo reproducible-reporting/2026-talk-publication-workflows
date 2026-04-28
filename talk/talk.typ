@@ -524,40 +524,29 @@ These can _also_ model the publication workflow!
 #only("2", sidebyside(
   [*Execution Mode*],
   [
+    #text(fill: ugga)[(more)]
     #text(fill: ugcr, weight: "bold")[Single-shot]
 
     Changes? \ $=>$ Rerun entire workflow.
   ],
   [
+    #text(fill: ugga)[(more)]
     #text(fill: uggr, weight: "bold")[Incremental]
 
     Changes? \ $=>$ Rerun only affected steps.
   ],
 ))
-/*
-#only("3", sidebyside(
-  [*Graph size*],
-  [
-    $gt.approx 10^6$
-
-    many low-cost tasks
-  ],
-  [
-    $lt.approx 10^6$
-
-    fewer high-cost tasks
-  ],
-))
-*/
 #only("3", sidebyside(
   [*Flexibility*],
   [
+    #text(fill: ugga)[(more)]
     #text(fill: uggr, weight: "bold")[Dynamic]
 
     Workflow determined on the fly, \
     based on earlier results
   ],
   [
+    #text(fill: ugga)[(more)]
     #text(fill: ugcr, weight: "bold")[Static]
 
     Workflow determined a priori, \
